@@ -10918,9 +10918,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-native-custom-keyboard-example@workspace:example":
+"react-native-custom-keyboard-pro-example@workspace:example":
   version: 0.0.0-use.local
-  resolution: "react-native-custom-keyboard-example@workspace:example"
+  resolution: "react-native-custom-keyboard-pro-example@workspace:example"
   dependencies:
     "@expo/metro-runtime": "npm:~6.1.2"
     expo: "npm:~54.0.30"
@@ -10929,15 +10929,16 @@ __metadata:
     react-dom: "npm:19.1.0"
     react-native: "npm:0.81.5"
     react-native-builder-bob: "npm:^0.40.13"
+    react-native-custom-keyboard-pro: "npm:*"
     react-native-monorepo-config: "npm:^0.3.1"
     react-native-safe-area-context: "npm:^5.6.2"
     react-native-web: "npm:~0.21.0"
   languageName: unknown
   linkType: soft
 
-"react-native-custom-keyboard@workspace:.":
+"react-native-custom-keyboard-pro@npm:*, react-native-custom-keyboard-pro@workspace:.":
   version: 0.0.0-use.local
-  resolution: "react-native-custom-keyboard@workspace:."
+  resolution: "react-native-custom-keyboard-pro@workspace:."
   dependencies:
     "@commitlint/config-conventional": "npm:^19.8.1"
     "@eslint/compat": "npm:^1.3.2"

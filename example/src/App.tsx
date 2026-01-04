@@ -9,7 +9,7 @@ import {
   NUMERIC_LAYOUT,
   ALPHA_LAYOUT,
   useKeyboardInput,
-} from 'react-native-custom-keyboard';
+} from 'react-native-custom-keyboard-pro';
 
 export default function App() {
   const [amount, handleNumericKey, setAmount] = useKeyboardInput();
