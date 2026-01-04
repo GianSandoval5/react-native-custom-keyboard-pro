@@ -1,6 +1,6 @@
-# react-native-custom-keyboard
+# react-native-custom-keyboard-pro
 
-[![npm version](https://img.shields.io/npm/v/react-native-custom-keyboard.svg)](https://www.npmjs.com/package/react-native-custom-keyboard)
+[![npm version](https://img.shields.io/npm/v/react-native-custom-keyboard-pro.svg)](https://www.npmjs.com/package/react-native-custom-keyboard-pro)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 A fully customizable in-app keyboard for React Native with smooth animations, multiple layouts, and a clean API inspired by Flutter.
@@ -19,12 +19,12 @@ A fully customizable in-app keyboard for React Native with smooth animations, mu
 ## Installation
 
 ```sh
-npm install react-native-custom-keyboard react-native-safe-area-context
+npm install react-native-custom-keyboard-pro react-native-safe-area-context
 ```
 
 **Or with yarn:**
 ```sh
-yarn add react-native-custom-keyboard react-native-safe-area-context
+yarn add react-native-custom-keyboard-pro react-native-safe-area-context
 ```
 
 ## Quick Start
@@ -40,7 +40,7 @@ import {
   NUMERIC_LAYOUT,
   ALPHA_LAYOUT,
   useKeyboardInput,
-} from 'react-native-custom-keyboard';
+} from 'react-native-custom-keyboard-pro';
 
 export default function App() {
   const [amount, handleNumericKey, setAmount] = useKeyboardInput();
@@ -102,7 +102,7 @@ const styles = StyleSheet.create({
 ## Multiple Keyboards
 
 ```tsx
-import { NUMERIC_LAYOUT, ALPHA_LAYOUT } from 'react-native-custom-keyboard';
+import { NUMERIC_LAYOUT, ALPHA_LAYOUT } from 'react-native-custom-keyboard-pro';
 
 <KeyboardHost>
   <Keyboard 
@@ -243,7 +243,7 @@ The library includes two ready-to-use keyboard layouts:
 
 Standard numeric keypad (3x4 grid):
 ```tsx
-import { NUMERIC_LAYOUT } from 'react-native-custom-keyboard';
+import { NUMERIC_LAYOUT } from 'react-native-custom-keyboard-pro';
 
 // Layout:
 // 1 2 3
@@ -256,7 +256,7 @@ import { NUMERIC_LAYOUT } from 'react-native-custom-keyboard';
 
 Full QWERTY keyboard with Spanish support:
 ```tsx
-import { ALPHA_LAYOUT } from 'react-native-custom-keyboard';
+import { ALPHA_LAYOUT } from 'react-native-custom-keyboard-pro';
 
 // Layout:
 // 1 2 3 4 5 6 7 8 9 0
@@ -325,7 +325,7 @@ const CUSTOM_LAYOUT = [
 For advanced use cases, you can access the input registry directly:
 
 ```tsx
-import { inputRegistry } from 'react-native-custom-keyboard';
+import { inputRegistry } from 'react-native-custom-keyboard-pro';
 
 // Get current active input
 const currentInput = inputRegistry.getCurrentInput();
