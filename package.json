@@ -1,5 +1,5 @@
 {
-  "name": "@giansandoval5/react-native-custom-keyboard",
+  "name": "react-native-custom-keyboard-pro",
   "version": "1.0.0",
   "description": "A fully customizable in-app keyboard for React Native with smooth animations and multiple layouts",
   "main": "./lib/module/index.js",
