@@ -57,14 +57,14 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/GianSandoval5/react-native-custom-keyboard.git"
+    "url": "git+https://github.com/GianSandoval5/react-native-custom-keyboard-pro.git"
   },
   "author": "GianSandoval5 <giansando2022@gmail.com> (https://github.com/GianSandoval5)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/GianSandoval5/react-native-custom-keyboard/issues"
+    "url": "https://github.com/GianSandoval5/react-native-custom-keyboard-pro/issues"
   },
-  "homepage": "https://github.com/GianSandoval5/react-native-custom-keyboard#readme",
+  "homepage": "https://github.com/GianSandoval5/react-native-custom-keyboard-pro#readme",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },
